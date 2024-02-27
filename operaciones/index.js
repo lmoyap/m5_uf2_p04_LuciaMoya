@@ -4,7 +4,7 @@
  * @param  {...Number} valors els valors amb els que realitzar la operacio
  * @returns {Number} el resultat de la operacio
  */
-function suma(...valors) {
+function suma(...nums) {
   let resultat = 0;
   for (let num of nums) {
     resultat += num;
